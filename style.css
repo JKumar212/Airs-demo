@@ -71,7 +71,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
- p{ background-image: url('assets/bgimg1.jpg');} /* Pharma/tech image */
+ p{ background-image: url('/assets/bgimg1.jpg');} /* Pharma/tech image */
   background-size: cover;
   padding: 80px 0;
   text-align: center;
