@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Software Products</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">MySoftwareSuite</h1>
+      <nav>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html" class="active">Products</a></li>
+          <li><a href="inquiry.html">Inquiry</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button id="themeToggle">🌙</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <h2 style="margin: 2rem 0; text-align: center;">Our Software Products</h2>
+
+    <div class="product">
+      <img src="assets/software1.jpg" alt="Software 1 Image" />
+      <div>
+        <h3>Inventory Manager</h3>
+        <p>Manage your stock, sales, and billing efficiently.</p>
+        <a href="#" class="btn">Download</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="assets/software2.jpg" alt="Software 2 Image" />
+      <div>
+        <h3>MR Reporting App</h3>
+        <p>Track your medical representatives and their performance.</p>
+        <a href="#" class="btn">Download</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="assets/software3.jpg" alt="Software 3 Image" />
+      <div>
+        <h3>File Locker</h3>
+        <p>Securely lock files with password-protected access.</p>
+        <a href="#" class="btn">Download</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="assets/software4.jpg" alt="Software 4 Image" />
+      <div>
+        <h3>Image Optimizer</h3>
+        <p>Compress and resize images without quality loss.</p>
+        <a href="#" class="btn">Download</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="assets/software5.jpg" alt="Software 5 Image" />
+      <div>
+        <h3>Fitness Tracker</h3>
+        <p>Track exercises, reps, and body performance.</p>
+        <a href="#" class="btn">Download</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MySoftwareSuite. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Dark Mode Toggle
+    const toggle = document.getElementById('themeToggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>

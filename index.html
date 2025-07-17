@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Business Software</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">MySoftwareSuite</h1>
+      <nav>
+        <ul id="navbar">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="inquiry.html">Inquiry</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button id="themeToggle">🌙</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+<h2>About Us</h2>
+    <p>
+      Based in Assam, <strong>Air Leaf Tech Pvt. Ltd.</strong> provides cutting-edge software solutions tailored for the pharmaceutical industry and individual professionals. 
+      We are passionate about helping pharma businesses digitize their operations with tools designed to enhance efficiency, reporting, and inventory tracking.
+    </p>
+      <a href="products.html" class="btn">View Products</a>
+    </div>
+  </section>
+<h2>Our Solutions</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <h3>MR Reporting App</h3>
+        <p>Track field activities, doctor visits, sales performance, and route management—all in one app. Designed for real-time reporting and analytics.</p>
+      </div>
+      <div class="feature">
+        <h3>Inventory Management System</h3>
+        <p>Manage stock levels, expiry tracking, billing, purchase orders, and much more with our smart inventory tools built for pharma distributors and retailers.</p>
+      </div>
+      <div class="feature">
+        <h3>Custom Pharma Software</h3>
+        <p>Need tailored solutions for your unique operations? We develop enterprise-grade custom tools just for your pharma business model.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Industries We Serve</h2>
+    <p>Our software empowers:</p>
+    <ul style="list-style: none; padding: 0;">
+      <li>✔ Pharmaceutical Companies</li>
+      <li>✔ Medical Representatives</li>
+      <li>✔ Distributors & Stockists</li>
+      <li>✔ Pharmacy Chains</li>
+      <li>✔ Healthcare Startups</li>
+    </ul>
+  </section>
+
+  <section class="cta" id="contact">
+    <h2>Ready to Streamline Your Pharma Operations?</h2>
+    <p>Get in touch with us for a free demo and consultation.</p>
+    <a href="mailto:contact@airleaftech.com">Contact Us</a>
+  </section>
+  <footer>
+    <p>&copy; 2025 MySoftwareSuite. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Dark Mode Toggle
+    const toggle = document.getElementById('themeToggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
