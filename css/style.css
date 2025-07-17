@@ -185,3 +185,15 @@ body.dark form textarea {
   color: #f1f1f1;
   border: 1px solid #555;
 }
+
+.about-section {
+  background-image: url('../assetes/bging1.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 30px;
+  border-radius: 12px;
+  color: #fff; /* Light text for dark background */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
